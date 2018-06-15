@@ -1,0 +1,7 @@
+{
+  "appPackage": "com.cochlear.clientremote.internal",
+  "appActivity": "com.cochlear.clientremote.ui.activity.SplashActivity",
+  "platformName": "Android",
+  "platformVersion":"8.0",
+  "deviceName":"1c3818230504"
+}

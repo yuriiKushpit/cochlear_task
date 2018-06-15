@@ -1,0 +1,42 @@
+{
+  "description_area": {
+    "locators": {
+        "android": "com.cochlear.clientremote.internal:id/txt_description",
+        "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText[2]"
+    },
+    "language": {
+      "en" : "The Cochlear™ Nucleus® Smart App allows users of compatible Sound Processors to easily manage their hearing.",
+      "fr" : "L'application Cochlear™ Nucleus® Smart permet aux utilisateurs de processeurs compatibles de gérer facilement leur audition.",
+      "de": "Mit der Cochlear™ Nucleus® Smart-App können Nutzer mit kompatiblen Soundprozessoren Ihre Höreinstellungen einfach verwalten.",
+      "el": "Η εφαρμογή Cochlear™ Nucleus® Smart επιτρέπει στους χρήστες συμβατών επεξεργαστών ήχου να διαχειρίζονται εύκολα την ακοή τους."
+    }
+  },
+
+
+  "welcome_label": {
+    "locators": {
+      "android": "com.cochlear.clientremote.internal:id/txt_title",
+      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText[1]"
+    },
+    "language": {
+      "en": "Welcome",
+      "fr": "Bienvenue",
+      "de": "Willkommen",
+      "el": "Καλώς ήλθατε"
+    }
+  },
+
+
+  "swipe_arrow": {
+    "locators": {
+      "android": "com.cochlear.clientremote.internal:id/txt_swipe",
+      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText"
+    },
+    "language": {
+      "en": "Swipe left",
+      "fr": "Balayer vers la gauche",
+      "de": "Nach links wischen",
+      "el": "Σάρωση αριστερά"
+    }
+  }
+}
