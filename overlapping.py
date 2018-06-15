@@ -64,8 +64,8 @@ class Screenshoot:
         self._driver = driver
         self._screenshot = None
         self._page_source = None
-
-        shutil.rmtree('screens')
+        if os.path.exists('screens'):
+            shutil.rmtree('screens')
         os.mkdir('screens')
 
     def process_elements(self, elements):
