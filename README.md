@@ -16,6 +16,7 @@
 ## Android
 All steps are the same for Android app except 4-th. In this case you should change platformVersion and deviceName to your 
 platform and device id. This application was used as target  https://drive.google.com/open?id=1Vy_oAI8yTPwzHGpzqqvCImaNIcJ8h6CT
+WARNING: Please install this app ABD Change Language https://play.google.com/store/apps/details?id=net.sanapeli.adbchangelanguage on your Android device and run adb shell pm grant net.sanapeli.adbchangelanguage android.permission.CHANGE_CONFIGURATION before first execution of tests.
 
 Here is folder with test running:
 https://drive.google.com/open?id=1wQ-W1c1HXc1ql4g4DThjoHjBtPLiCiBU
